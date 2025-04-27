@@ -17,7 +17,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 20px;
   }
   
@@ -32,6 +31,7 @@
   
   nav ul {
     list-style: none;
+    margin-top: 2.5rem;
   }
   
   nav ul li {
@@ -49,6 +49,8 @@
   .logout p {
     margin-top: 20px;
     cursor: pointer;
+    bottom: 20px;
+    position: absolute;
   }
   
   .content {
